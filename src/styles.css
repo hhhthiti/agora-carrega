@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Rajdhani:wght@600;700&display=swap');
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #070b14; color: #e2e8f0; font-family: 'JetBrains Mono', monospace; }
+
+.app { min-height: 100vh; padding: 20px; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.header h1 { margin: 0; font-family: 'Rajdhani', sans-serif; letter-spacing: .08em; }
+
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; gap: 12px; }
+button { background: #1e293b; border: 1px solid #334155; color: #cbd5e1; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+button.active { background: #1e40af; border-color: #3b82f6; color: #fff; }
+input, select { background: #0f172a; border: 1px solid #334155; color: #e2e8f0; border-radius: 6px; padding: 6px 10px; }
+
+table { width: 100%; border-collapse: collapse; background: #0a0f1e; border: 1px solid #1e293b; }
+th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #1e293b; font-size: 12px; }
+th { color: #64748b; font-size: 11px; }
+tr:hover { background: #0f172a; }
